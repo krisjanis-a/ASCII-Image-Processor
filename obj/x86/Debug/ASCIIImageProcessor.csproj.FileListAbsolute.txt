@@ -1,0 +1,11 @@
+/Users/Kr1sh/Desktop/unknown/programming scripts/projects/ASCIIImageProcessor/bin/Debug/ASCIIImageProcessor.exe
+/Users/Kr1sh/Desktop/unknown/programming scripts/projects/ASCIIImageProcessor/bin/Debug/ASCIIImageProcessor.pdb
+/Users/Kr1sh/Desktop/unknown/programming scripts/projects/ASCIIImageProcessor/bin/Debug/ImageProcessor.dll
+/Users/Kr1sh/Desktop/unknown/programming scripts/projects/ASCIIImageProcessor/bin/Debug/System.ValueTuple.dll
+/Users/Kr1sh/Desktop/unknown/programming scripts/projects/ASCIIImageProcessor/bin/Debug/System.ValueTuple.xml
+/Users/Kr1sh/Desktop/unknown/programming scripts/projects/ASCIIImageProcessor/bin/Debug/ImageProcessor.xml
+/Users/Kr1sh/Desktop/unknown/programming scripts/projects/ASCIIImageProcessor/obj/x86/Debug/ASCIIImageProcessor.csprojAssemblyReference.cache
+/Users/Kr1sh/Desktop/unknown/programming scripts/projects/ASCIIImageProcessor/obj/x86/Debug/ASCIIImageProcessor.csproj.CoreCompileInputs.cache
+/Users/Kr1sh/Desktop/unknown/programming scripts/projects/ASCIIImageProcessor/obj/x86/Debug/ASCIIImageProcessor.csproj.CopyComplete
+/Users/Kr1sh/Desktop/unknown/programming scripts/projects/ASCIIImageProcessor/obj/x86/Debug/ASCIIImageProcessor.exe
+/Users/Kr1sh/Desktop/unknown/programming scripts/projects/ASCIIImageProcessor/obj/x86/Debug/ASCIIImageProcessor.pdb
