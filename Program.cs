@@ -13,26 +13,13 @@ namespace ASCIIImageProcessor
     {
         public static void Main(string[] args)
         {
-            // /Users/Kr1sh/Desktop/ascii-pineapple.jpeg
-
-            // /Users/Kr1sh/Desktop/unknown/20af4f92bba47608c8f235de6866262c.jpg
-
-            // 1024 x 1393
-
-            ///Users/Kr1sh/Desktop/unknown/BMW 316i in the wild big.jpeg
-
-            //4608 × 3456
-
-            // /Users/Kr1sh/Desktop/unknown/realistic-female-sculptures-luo-li-rong-14-59c8a3e942f50__700.jpg
-
-            // 700 × 1287
 
             EntryPoint:
 
-            Bitmap originalImage = new Bitmap(@"/Users/Kr1sh/Desktop/unknown/BMW 316i in the wild big.jpeg");
+            Bitmap originalImage = new Bitmap(@"/Users/Kr1sh/Desktop/unknown/BMW 316i in the wild big.jpeg"); // Insert chosen image file path
 
-            decimal originalWidth = 4608m;
-            decimal originalHeight = 3456m;
+            decimal originalWidth = 4608m; // Insert original image width manually
+            decimal originalHeight = 3456m; // Insert original image height manually
 
             decimal aspectRatio = originalWidth / originalHeight;
 
@@ -45,9 +32,6 @@ namespace ASCIIImageProcessor
             Size size = new Size(newWidthInt, newHeightInt);
 
             Bitmap img = (System.Drawing.Bitmap)ResizeImage(originalImage, size);
-
-            //Bitmap img = new Bitmap(@"/Users/Kr1sh/Desktop/ascii-pineapple.jpeg");
-
 
             int imageWidth = img.Width;
             int imageHeight = img.Height;
@@ -166,7 +150,7 @@ namespace ASCIIImageProcessor
                         if ((intervalList[k] <= pixelIntensityMatrix[i, j]) & (pixelIntensityMatrix[i, j] < intervalList[k + 1]))
                         {
                             string charToString = Char.ToString(brightnessCharacters[k]);
-                            pixelMatrix[i, j] = (charToString /*  + charToString + charToString */);
+                            pixelMatrix[i, j] = (charToString /*  + charToString + charToString */); // Change pixel width
                         }
 
                         k++;
@@ -175,7 +159,7 @@ namespace ASCIIImageProcessor
             }
 
 
-            //Print the image pixelMatrix
+            // Print the image pixel Matrix
 
             for (int i = 0; i < imageHeight; i++)
             {
